@@ -334,16 +334,32 @@ footer{
         padding-left: 85px;
         margin-left: 100px;
     }
+
+    .first-section{
+        margin-left: 200px;
+    }
+
+    .first-section img{
+        width: 500px;
+    }
+
     .features-section{
         display: flex;
         flex-direction: column;
+        margin-left: 100px;
+        margin-top: 50px;
     }
+
     .features{
-        width: 70%;
+        width: 400px;  
     }
     
-    .productive{
-        margin-left: 100px;
+    .section-3{
+        margin-left: 230px;
+    }
+
+    .productive-icon{
+        width: 500px;
     }
 
     .section-4{
@@ -363,8 +379,12 @@ footer{
         padding: 20px;
         margin-top: 20px;
     }
-    
 
-
+    footer{
+        background-color: hsl(218, 28%, 13%);
+        padding-top: 150px;
+        padding-left: 20px;
+        width: 100%;
+    }
 }
 
